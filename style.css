@@ -1,0 +1,50 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color: rgb(173, 173, 173);
+}
+.link:link,
+.link:visited,
+.link:hover,
+.link:active {
+  color: rgb(80, 80, 80);
+  text-decoration: none;
+}
+#feedback {
+  text-align: left;
+}
+canvas {
+  border: 2px solid black;
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 50vw;
+  height: auto;
+  border: 2px solid white;
+}
+.controls {
+  margin: 10px 0;
+}
+.controls label {
+  display: block;
+  margin: 5px 0;
+}
+#title {
+  text-align: center;
+  font-size: 40px;
+}
+#videoInput {
+  display: block;
+  margin: 20px auto;
+  font-size: 18px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+input[type="number"] {
+  width: 70px;
+  padding: 5px;
+  font-size: 16px;
+}
